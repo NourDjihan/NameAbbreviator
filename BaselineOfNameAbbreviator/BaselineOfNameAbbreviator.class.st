@@ -1,6 +1,6 @@
 Class {
 	#name : #BaselineOfNameAbbreviator,
-	#superclass : #Object,
+	#superclass : #BaselineOf,
 	#category : #BaselineOfNameAbbreviator
 }
 
@@ -12,5 +12,5 @@ BaselineOfNameAbbreviator >> baseline: spec [
 		spec
 			package: 'CNDNameAbbreviator';
 			package: 'CNDNameAbbreviator-Tests'
-			with: [ spec requires: #( 'CNDNameAbbreviator' ) ] ]
+			with: [ spec requires: #('CNDNameAbbreviator') ] ]
 ]
